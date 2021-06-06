@@ -12,7 +12,7 @@ interface FormData {
 }
 
 export function Register() {
-
+    
     const { register, handleSubmit, formState: {errors} } = useForm<FormData>();
 
     const history = useHistory()
